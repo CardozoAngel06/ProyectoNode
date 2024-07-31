@@ -1,0 +1,25 @@
+                                        npm comandos
+npm init
+npm i express (instala express)
+npm install (instala los node_modules)
+
+                                   Modelo de comunicacion
+HTTP (Protocolo).
+Front (Cliente) --> Peticiones(Request).
+Back (Servidor) --> Responder(Response).
+
+Peticiones Metodos(METHOD) --> Get -> Pido info al servidor (mostrar productos).
+                            --> Post -> Envio info para que el servidor procese (guardar producto en DB).
+                            --> Put  -> Metodos para actualizar info existente (actualizar precio de un producto).
+                            --> Patch -> Metodos para actualizar info existente (actualizar precio de un producto).
+                            --> Delete -> Pido al servidor que elimine datos (eliminar un producto).
+
+                                    Sintaxis de Peticiones
+
+                    Funcion que toma la request, la procesa y envia la Response            
+                           |        
+app.Method('endPoint', callback)
+                |
+            Ruta Objetivo (url)
+
+Thunder Client (extencion de Visual Studio Code).

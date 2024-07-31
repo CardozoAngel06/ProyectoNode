@@ -1,0 +1,14 @@
+{
+  "name": "clase-31-07",
+  "version": "1.0.0",
+  "description": "Mi Primer Proyecto :p",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cardozo Angel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
